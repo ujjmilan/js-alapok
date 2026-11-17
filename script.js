@@ -131,9 +131,9 @@ console.log("Talabér" - "Olivér");
 console.log("23" * "2")
 console.log("24" / "2")
 
-console.log(Boolean(1))
-console.log(Boolean(undefined))
-console.log(Boolean({}))
-console.log(Boolean("{}"))
-console.log(Boolean(""))
-console.log(Boolean(number("Talabér")))
+console.log(Boolean(1));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean("{}"));
+console.log(Boolean(""));
+console.log(Boolean(number("Talabér")));
