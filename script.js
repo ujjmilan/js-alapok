@@ -98,17 +98,42 @@
 //     console.log(`Teofil még nem ihat bort várnia kell még ${evekHatra} évet. ❌`)
 // }
 
-const szuletesiEv = 2002;
-let szazad;
+// const szuletesiEv = 2002;
+// let szazad;
 
-if (szuletesiEv >= 2000) {
-    szazad = 20.
-    console.log(`${szazad} században születtél. `)
-}
+// if (szuletesiEv >= 2000) {
+//     szazad = 20.
+//     console.log(`${szazad} században születtél. `)
+// }
 
-else {
-    szazad = 21;
-    console.log(`${szazad} században születtél. `)
-}
+// else {
+//     szazad = 21;
+//     console.log(`${szazad} században születtél. `)
+// }
 
-console.log(szazad)
+// console.log(szazad)
+
+const bekertEv = "1991"
+console.log(bekertEv + 18)
+
+const szuletesiEv = Number(bekertEv);
+console.log(szuletesiEv + 18);
+
+console.log(Number("Talabér"));
+console.log(typeof szuletesiEv);
+
+console.log("Én " + 23 + " éves vagyok.");
+
+console.log("23" - "10" - 3);
+
+console.log("Talabér" - "Olivér");
+
+console.log("23" * "2")
+console.log("24" / "2")
+
+console.log(Boolean(1))
+console.log(Boolean(undefined))
+console.log(Boolean({}))
+console.log(Boolean("{}"))
+console.log(Boolean(""))
+console.log(Boolean(number("Talabér")))
