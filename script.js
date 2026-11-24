@@ -233,3 +233,24 @@
 // logger();
 // logger();
 // logger();
+
+// function FruitProcessor(apples, oranges) {
+    // console.log(apples, oranges);
+//     const juice = `Gyümölcslé ${apples} db almából ${oranges} db narancsból.`;
+//     return juice;
+// }
+
+// FruitProcessor(5, 0);
+// const appleJuice = FruitProcessor(5, 0);
+// console.log(appleJuice);
+
+// const appleOrangeJuice = FruitProcessor(2, 4);
+// console.log(appleOrangeJuice)
+
+function calcAge1(birthYear) {
+    const age = 2026 - birthYear;
+    return age
+}
+
+const age1 = calcAge1(1999);
+console.log(age1)
