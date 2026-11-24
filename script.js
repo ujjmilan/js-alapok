@@ -1,3 +1,5 @@
+"use strict";
+
 // console.log("Sikeres összekötés ✅");
 
 // let kereszt_nev = "Talabér";
@@ -98,17 +100,43 @@
 //     console.log(`Teofil még nem ihat bort várnia kell még ${evekHatra} évet. ❌`)
 // }
 
-const szuletesiEv = 2002;
-let szazad;
+// const szuletesiEv = 2002;
+// let szazad;
 
-if (szuletesiEv >= 2000) {
-    szazad = 20.
-    console.log(`${szazad} században születtél. `)
-}
+// if (szuletesiEv >= 2000) {
+//     szazad = 20.
+//     console.log(`${szazad} században születtél. `)
+// }
 
-else {
-    szazad = 21;
-    console.log(`${szazad} században születtél. `)
-}
+// else {
+//     szazad = 21;
+//     console.log(`${szazad} században születtél. `)
+// }
 
-console.log(szazad)
+// console.log(szazad)
+
+// let hasDriverslicense = false;
+
+// const passTest = true;
+
+// if (passTest) {
+//     hasDriverslicense = true;
+// }
+
+// if (hasDriverslicense) {
+//     console.log("Vezethetek");
+     
+// }
+
+// const interface = "hangkártya";
+// const private = 23;
+
+// function logger() {
+//     console.log("A nevem Talabér");
+
+// }
+
+// logger();
+// logger();
+// logger();
+
