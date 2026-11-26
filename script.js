@@ -291,5 +291,5 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntilRetirement(2009, "balázs"))
 console.log(yearsUntilRetirement(2009, "bálint"))
-console.log(yearsUntilRetirement(1987, "tanár úr"))
+console.log(yearsUntilRetirement(1987, "tanár úrl"))
 
