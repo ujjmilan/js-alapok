@@ -283,13 +283,57 @@
 
 // console.log(yearsUntilRetirement(2009))
 
-const yearsUntilRetirement = (birthYear, firstName) => {
-    const age = 2026 - birthYear;
-    const retirement = 65 - age;
-    return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
-}
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
+// }
 
-console.log(yearsUntilRetirement(2009, "balázs"))
-console.log(yearsUntilRetirement(2009, "bálint"))
-console.log(yearsUntilRetirement(1987, "tanár úrl"))
+// console.log(yearsUntilRetirement(2009, "balázs"))
+// console.log(yearsUntilRetirement(2009, "bálint"))
+// console.log(yearsUntilRetirement(1987, "tanár úrl"))
 
+
+// function multiplyByFour (fruit) {
+//     return fruit * 4
+// }
+
+// function FruitProcessor(apples, oranges) {
+//     const applePieces = multiplyByFour(apples);
+//     const orangePieces = multiplyByFour(oranges);
+//     console.log(apples, oranges);
+//     const juice = `Gyümölcslé ${applePieces} almadarabból ${orangePieces} narancsdarabból áll.`;
+//     return juice;
+// }
+
+
+// console.log(FruitProcessor(2, 3));
+
+
+// const calcAge = function(birthYear) {
+//     return 2026 - birthYear;
+// }
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+
+//     if (retirement > 0) {
+//         console.log( `${firstName} ${retirement} év múlva mehet nyugdíjba.`);
+//         return retirement;
+//     }
+
+//     else {
+//         console.log(`${firstName} már elérte a nyugdíj korhatárt`)
+//         return -1;
+//     }
+// }
+
+// console.log(yearsUntilRetirement(2009, "Balázs"));
+// console.log(yearsUntilRetirement(2009, "Bálint"));
+// console.log(yearsUntilRetirement(1987, "Tanár úr"));
+// console.log(yearsUntilRetirement(1953, "talabér"));
+
+const friends = ["Talabér", "Tekla", "Tóbiás", "Frédi", "Balázs", "Teofil"]
+console.log(friends);
+console.log(friends[2])
