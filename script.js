@@ -366,3 +366,11 @@ console.log(newLenght);
 
 const newLenght2 = friends.unshift("Zsombor");
 console.log(newLenght2);
+
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+const shifted = friends.shift();
+console.log(shifted);
+console.log(friends);
