@@ -374,3 +374,17 @@ console.log(friends);
 const shifted = friends.shift();
 console.log(shifted);
 console.log(friends);
+
+console.log(friends.indexOf("Tóbiás"));
+console.log(friends.indexOf("Dávid"));
+
+console.log(friends.includes("Tekla"));
+console.log(friends.includes("Balázs"));
+
+if (friends.includes("Tóbiás")) {
+    console.log(`Tóbiás a barátok között van ${friends.indexOf("Tóbiás")}. indexxel`);
+}
+
+else {
+    console.log("Tóbiás nincs a barátok közt. ")
+}
